@@ -1,4 +1,4 @@
-package com.example.assignmentapp;
+package com.example.app;
 
 import android.content.Intent;
 import android.os.Bundle;

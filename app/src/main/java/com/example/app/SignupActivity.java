@@ -1,4 +1,4 @@
-package com.example.assignmentapp;
+package com.example.app;
 
 import android.os.Bundle;
 import android.widget.Button;
