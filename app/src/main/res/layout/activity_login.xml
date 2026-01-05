@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView android:text="Welcome Back" android:textSize="24sp" android:layout_marginBottom="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/etLoginEmail" android:hint="Email" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etLoginPass" android:hint="Password" android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnLogin" android:text="Login" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+
+    <TextView android:id="@+id/tvForgotPass" android:text="Forgot Password?" android:textColor="#0000FF" android:layout_marginTop="15dp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/tvGoToSignup" android:text="No account? Sign up here" android:layout_marginTop="10dp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+</LinearLayout>
